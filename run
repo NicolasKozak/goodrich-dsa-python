@@ -1,5 +1,11 @@
 #!/usr/bin/env python
 
+"""
+Example usage:
+./run ch1/ex1 10 20
+Will run exercise 1 from chapter 1 with args 10 and 20.
+"""
+
 from sys import argv
 from sys import exit
 from sys import path as sys_path

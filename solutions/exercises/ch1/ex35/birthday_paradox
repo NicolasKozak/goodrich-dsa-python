@@ -17,15 +17,13 @@ def get_birthdays(n):
 
 
 def has_duplicate(birthdays):
-    seen = {}
+    seen = set()
 
     for birthday in birthdays:
-        birthday_str = str(birthday)
-        if birthday_str in seen:
+        if birthday in seen:
             return True
         else:
-            seen[birthday_str] = birthday_str
-
+            seen.add(birthday)
     return False
 
 

@@ -1,6 +1,6 @@
 from typing import ClassVar
 
-from solutions.vendor.ch06.empty import Empty
+from solutions.vendor.exceptions.empty import Empty
 
 
 class CollectionsDeque:

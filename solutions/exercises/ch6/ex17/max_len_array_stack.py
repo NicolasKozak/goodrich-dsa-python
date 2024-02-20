@@ -1,5 +1,5 @@
 from solutions.exercises.ch6.ex16.full import Full
-from solutions.vendor.ch06.empty import Empty
+from solutions.vendor.exceptions.empty import Empty
 
 
 class MaxLenArrayStack():

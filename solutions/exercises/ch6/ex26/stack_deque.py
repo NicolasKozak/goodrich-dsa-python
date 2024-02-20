@@ -1,5 +1,5 @@
 from solutions.vendor.ch06.array_stack import ArrayStack
-from solutions.vendor.ch06.empty import Empty
+from solutions.vendor.exceptions.empty import Empty
 
 
 class StackDeque:

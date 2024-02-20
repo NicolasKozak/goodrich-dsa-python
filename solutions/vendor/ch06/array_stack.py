@@ -21,7 +21,7 @@
 
 """Basic example of an adapter class to provide a stack interface to Python's list."""
 
-from solutions.vendor.ch06.empty import Empty
+from solutions.vendor.exceptions.empty import Empty
 
 
 class ArrayStack:

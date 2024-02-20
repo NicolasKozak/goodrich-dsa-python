@@ -16,7 +16,7 @@ sys_path.insert(0, os_path.join(os_path.dirname(__file__), "aliases"))
 
 from aliases.util import get_alias_path
 
-command = ['pipenv', 'run', 'python']
+command = ['python']
 
 command.append(get_alias_path(argv[1]))
 command.extend(argv[2:])

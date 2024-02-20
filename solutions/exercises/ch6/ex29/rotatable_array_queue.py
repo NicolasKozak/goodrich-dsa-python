@@ -1,5 +1,5 @@
 from solutions.vendor.ch06.array_queue import ArrayQueue as Ch6ArrayQueue
-from solutions.vendor.ch06.empty import Empty
+from solutions.vendor.exceptions.empty import Empty
 
 
 class RotatableArrayQueue(Ch6ArrayQueue):

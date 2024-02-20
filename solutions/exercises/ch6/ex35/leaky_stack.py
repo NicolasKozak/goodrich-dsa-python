@@ -1,4 +1,4 @@
-from solutions.vendor.ch06.empty import Empty
+from solutions.vendor.exceptions.empty import Empty
 
 
 class LeakyStack:
